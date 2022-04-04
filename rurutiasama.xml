@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="rurutiasama"
+           fetch="https://github.com/RuRuTiaSaMa"/>
+
+    <!-- Hardware repos -->
+    <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom-caf_sm8150_audio" remote="rurutiasama" revision="dot12.1" />
+    <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom-caf_sm8150_display" remote="rurutiasama" revision="dot12.1" />
+    <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom-caf_sm8150_media" remote="rurutiasama" revision="dot12.1" />
+
+</manifest>

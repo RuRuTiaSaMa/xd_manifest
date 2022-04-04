@@ -1129,5 +1129,7 @@
   <include name="obsolete.xml" />
   <include name="xd.xml" />
   <include name="others.xml" />
+  <!-- RuRuTiaSaMa Custom repos -->
+  <include name="rurutiasama.xml" />
 
 </manifest>
