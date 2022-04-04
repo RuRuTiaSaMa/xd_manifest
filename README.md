@@ -8,10 +8,10 @@ a android based on AOSP with Minimalist UI Design.
 
 ### Sync our source ###
 ```bash
-repo init -u https://github.com/xdroid-oss/xd_manifest -b twelve-dev
+repo init -u https://github.com/RuRuTiaSaMa/xd_manifest -b twelve-dev
 ```
 ```bash
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
 ### Build our source ###
